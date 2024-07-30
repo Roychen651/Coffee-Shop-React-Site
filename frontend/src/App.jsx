@@ -4,6 +4,7 @@ import 'aos/dist/aos.css'
 import Navbar from './Components/Navbar/Navbar'
 import Home from './Components/Home/Home'
 import Services from './Components/Services/Services'
+import Banner from './Components/Banner/Banner'
 
 const App = () => {
 
@@ -24,6 +25,7 @@ const App = () => {
       <Navbar />
       <Home />
       <Services/>
+      <Banner/>
       
     </div>
   )
