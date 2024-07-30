@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/coffee_logo.png";
+import Logo from "../../assets/5501164.png";
 import { FaCoffee } from "react-icons/fa";
 
 const Menu = [
