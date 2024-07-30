@@ -19,6 +19,7 @@ const Menu = [
     link: "/#about",
   },
 ];
+
 const Navbar = () => {
   return (
     <>
@@ -55,10 +56,13 @@ const Navbar = () => {
                   </li>
                 ))}
               </ul>
-              <button className=" bg-primary/70 hover:scale-105 duration-200 text-white px-4 py-2 rounded-full flex items-center gap-3">
+              <a
+                href="https://wa.me/972508815855?text=Hey,%20I%20want%20to%20order%20coffee%20beans."
+                className=" bg-primary/70 hover:scale-105 duration-200 text-white px-4 py-2 rounded-full flex items-center gap-3"
+              >
                 Order
                 <FaCoffee className="text-xl text-white drop-shadow-sm cursor-pointer" />
-              </button>
+              </a>
             </div>
           </div>
         </div>
